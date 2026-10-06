@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background:
+        linear-gradient(
+            rgba(5, 10, 20, 0.95),
+            rgba(10, 20, 35, 0.95)
+        );
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: #222;
+}
+
+
+/* MAIN CONTAINER */
+
+.container {
+
+    width: 100%;
+
+    max-width: 450px;
+
+    padding: 20px;
+
+}
+
+
+/* FORM */
+
+.form-box {
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,0.5);
+
+}
+
+
+/* LOGO */
+
+.logo {
+
+    text-align: center;
+
+    font-size: 50px;
+
+    margin-bottom: 5px;
+
+}
+
+
+/* TITLE */
+
+h1 {
+
+    text-align: center;
+
+    color: #1464a5;
+
+    margin-bottom: 5px;
+
+}
+
+.subtitle {
+
+    text-align: center;
+
+    color: #777;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* LABEL */
+
+label {
+
+    display: block;
+
+    margin-top: 15px;
+
+    margin-bottom: 7px;
+
+    font-weight: bold;
+
+}
+
+
+/* INPUT */
+
+input {
+
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    outline: none;
+
+}
+
+
+input:focus {
+
+    border-color: #1464a5;
+
+    box-shadow:
+        0 0 5px rgba(20,100,165,0.3);
+
+}
+
+
+/* BUTTON */
+
+button {
+
+    width: 100%;
+
+    padding: 13px;
+
+    margin-top: 25px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #1464a5;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+
+button:hover {
+
+    background: #0c4d82;
+
+}
+
+
+/* ERROR */
+
+.error {
+
+    background: #ffe1e1;
+
+    color: #b00020;
+
+    padding: 12px;
+
+    border-radius: 7px;
+
+    margin-bottom: 15px;
+
+    text-align: center;
+
+}
+
+
+/* SWITCH */
+
+.switch {
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    color: #555;
+
+}
+
+
+.switch a {
+
+    color: #1464a5;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+
+/* DASHBOARD */
+
+.dashboard {
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+.dashboard-box {
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 18px;
+
+    text-align: center;
+
+    width: 500px;
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,0.5);
+
+}
+
+
+.dashboard-box h1 {
+
+    margin-bottom: 15px;
+
+}
+
+
+.dashboard-box h2 {
+
+    margin-bottom: 10px;
+
+}
+
+
+.dashboard-box p {
+
+    margin: 8px;
+
+    color: #666;
+
+}
+
+
+/* SHOP MENU */
+
+.shop-menu {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-top: 25px;
+
+}
+
+
+.menu-card {
+
+    flex: 1;
+
+    padding: 20px 5px;
+
+    background: #f1f5f8;
+
+    border-radius: 10px;
+
+    font-size: 25px;
+
+}
+
+
+.menu-card span {
+
+    display: block;
+
+    font-size: 12px;
+
+    margin-top: 8px;
+
+    font-weight: bold;
+
+}
+
+
+/* LOGOUT */
+
+.logout {
+
+    background: #c62828;
+
+}
+
+
+.logout:hover {
+
+    background: #9e1c1c;
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 500px) {
+
+    .form-box,
+    .dashboard-box {
+
+        padding: 25px;
+
+    }
+
+    .shop-menu {
+
+        flex-direction: column;
+
+    }
+
+}
